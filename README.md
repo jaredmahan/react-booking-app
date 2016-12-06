@@ -3,7 +3,8 @@
     - Currently the page is there but it does not add the item to the list
 
 # How to run the app:
-In order to run this app you will nned to use `npm` to install webpack, typescript, and maybe webpack-dev-server. 
+1. In order to run this app you will nned to use `npm` to install webpack, typescript, and maybe webpack-dev-server. 
+2. You will then need to run `npm i` and once that completes you can then run `npm start` to run webpack-dev-server. 
 
 # Requirements
 
