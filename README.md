@@ -1,10 +1,15 @@
 # Chores (Items left):
-1. Make the 'Add New Booking' button actionable
+1. Make the `Add New Booking` button actionable
     - Currently the page is there but it does not add the item to the list
 
 # How to run the app:
-1. In order to run this app you will nned to use `npm` to install webpack, typescript, and maybe webpack-dev-server. 
-2. You will then need to run `npm i` and once that completes you can then run `npm start` to run webpack-dev-server. 
+1. In order to run this app you will need to use `npm` to install webpack, typescript, and maybe webpack-dev-server. 
+2. You will then need to run `npm i` and once that completes you can then run `npm start` to run webpack-dev-server.
+
+# Things to know:
+1. This application uses Typescript so instead of .jsx we use .tsx
+2. We are linting in this application so if you make a change that that conflicts with the `tslint.json` webpack with throw an error
+3. We are using Webpack's hot-module-replacement for our dev configuration so no `/dist` folder is written on build because it is built to memory.
 
 # Requirements
 
