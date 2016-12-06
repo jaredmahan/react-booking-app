@@ -2,6 +2,8 @@
 1. Make the 'Add New Booking' button actionable
     - Currently the page is there but it does not add the item to the list
 
+# How to run the app:
+In order to run this app you will nned to use `npm` to install webpack, typescript, and maybe webpack-dev-server. 
 
 # Requirements
 
