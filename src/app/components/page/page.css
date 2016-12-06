@@ -1,0 +1,33 @@
+.page .calendar-open, .page .calendar-closed {
+    position: fixed;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+}
+.page .calendar-open{
+    top: 303px;
+    transition:.5s;
+}
+.page .calendar-closed{
+    top: 50px;
+    transition:.5s;
+}
+.page .now-button{
+    position:fixed;
+    bottom: 0;
+    margin-bottom: -2px;
+    height: 43px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #fff;
+    border-top: 1px solid #e5e7e7;
+}
+.page .now-button button{
+    width: 100%;
+    height: 40px !important;
+    color: #4e7be4;
+    padding-bottom: 20px;
+}
